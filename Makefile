@@ -1,6 +1,6 @@
 .PHONY: build
 
-VERSION="6.5.3-1"
+VERSION="6.7.2-0"
 
 build:
 	docker build --tag observabilitystack/logstash:$(VERSION) .
