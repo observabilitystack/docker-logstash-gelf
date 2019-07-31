@@ -1,3 +1,4 @@
+dist: bionic
 language: generic
 services:
 - docker
@@ -11,6 +12,8 @@ script: make
 
 # release steps
 after_success:
+  - if [ "${TRAVIS_PULL_REQUEST_BRANCH:-$TRAVIS_BRANCH}" == "master" ]; then
   - docker login -u $DOCKER_USER -p $DOCKER_PASS
   - make release
+  - fi
   
