@@ -1,4 +1,5 @@
-FROM docker.elastic.co/logstash/logstash-oss:7.4.2
+ARG LOGSTASH_VERSION
+FROM docker.elastic.co/logstash/logstash-oss:${LOGSTASH_VERSION}
 
 # install extra plugins needed
 RUN bin/logstash-plugin install logstash-output-gelf && \
