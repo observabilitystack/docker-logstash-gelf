@@ -1,6 +1,7 @@
 # [Docker Gelf Logstash](https://github.com/observabilitystack/docker-logstash-gelf)
 
 ![TravisCI](https://travis-ci.org/observabilitystack/docker-logstash-gelf.svg?branch=master)
+![Docker Pulls](https://img.shields.io/docker/pulls/observabilitystack/logstash)
 
 A recent [Logstash Docker OSS image](https://www.docker.elastic.co/#logstash-7-4-2-oss) 
 with some plugins preinstalled that make Logstash
