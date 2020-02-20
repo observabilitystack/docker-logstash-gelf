@@ -3,14 +3,14 @@
 ![TravisCI](https://travis-ci.org/observabilitystack/docker-logstash-gelf.svg?branch=master)
 ![Docker Pulls](https://img.shields.io/docker/pulls/observabilitystack/logstash)
 
-A recent [Logstash Docker OSS image](https://www.docker.elastic.co/#logstash-7-5-1-oss) 
+A recent [Logstash Docker OSS image](https://www.docker.elastic.co/#logstash-7-6-0-oss) 
 with some plugins preinstalled that make Logstash
 easier to use. Use the image as a drop-in replacement for your 
-[vanilla Elastic Logstash images](https://www.elastic.co/guide/en/logstash/7.5/docker.html).
+[vanilla Elastic Logstash images](https://www.elastic.co/guide/en/logstash/7.6/docker.html).
 The images are available on [Docker Hub](https://hub.docker.com/r/observabilitystack/logstash):
 
 ```docker
-docker pull observabilitystack/logstash:7.5.1
+docker pull observabilitystack/logstash:7.6.0
 ```
 
 ## Pre-installed plugins
