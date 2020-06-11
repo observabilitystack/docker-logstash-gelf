@@ -10,7 +10,7 @@ easier to use. Use the image as a drop-in replacement for your
 The images are available on [Docker Hub](https://hub.docker.com/r/observabilitystack/logstash):
 
 ```docker
-docker pull observabilitystack/logstash:7.7.0
+docker pull observabilitystack/logstash:7.7.1
 ```
 
 ## Pre-installed plugins
